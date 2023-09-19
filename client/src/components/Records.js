@@ -35,7 +35,7 @@ function Record() {
     const base = extractBase[1];
     // console.log("i a bs\ase");
     try {
-      const response=await axios("http://localhost:7000/api/transcript", {
+      const response=await axios("https://speech-to-text-modal-backend-k6ex.onrender.com/api/transcript", {
         method: "POST",
         headers: {
           "Content-Type": "application/json", // This indicates that you're sending JSON data
