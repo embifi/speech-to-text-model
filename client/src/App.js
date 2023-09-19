@@ -24,7 +24,7 @@ function App() {
 <h1>Speech To text Model</h1>
 <Router>
 <Routes>
-<Route path ="/" element={<Records />}/>
+<Route path ="/home" element={<Records />}/>
 </Routes>
 </Router>
      
